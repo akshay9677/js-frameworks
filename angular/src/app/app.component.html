@@ -1,0 +1,11 @@
+<div class="App">
+  <h1>Emoji Search App {{ randomEmoji.emoji }}</h1>
+  <div class="search-container">
+    <input
+      placeholder="Enter a emoji name to search"
+      [(ngModel)]="searchText"
+      (input)="searchTextChange()"
+    />
+    <app-emoji-result [emojiList]="emojiList"></app-emoji-result>
+  </div>
+</div>

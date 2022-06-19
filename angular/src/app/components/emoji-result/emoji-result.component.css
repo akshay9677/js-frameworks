@@ -1,0 +1,19 @@
+
+.emoji-result-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: solid 1px #ccc;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  
+  .emoji-section {
+    font-size: 30px;
+  }
+  
+  .emoji-text {
+    font-size: 16px;
+    margin-left: 10px;
+  }

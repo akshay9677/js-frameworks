@@ -1,0 +1,7 @@
+<div
+  *ngFor="let emoji of emojiList; let i = index"
+  class="emoji-result-container"
+>
+  <div class="emoji-section">{{ emoji.emoji }}</div>
+  <div class="emoji-text">{{ getFormattedText(emoji.key) }}</div>
+</div>
